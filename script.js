@@ -1,3 +1,9 @@
+/*
+ * Hello there. This program was made by me, Umer Tariq.
+ * The whole program was revised on 2nd July, 2024.
+ * It's a mess, I know. :)
+ */
+
 let turnNumber = 0;
 let humanScore = 0;
 let computerScore = 0;
