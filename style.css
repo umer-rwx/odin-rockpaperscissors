@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container,
+#result {
+    border: 2px solid white;
+    margin: 8px 10vw;
+    padding: 16px;
+}
