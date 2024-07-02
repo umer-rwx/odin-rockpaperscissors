@@ -1,16 +1,34 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
+button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: black;
+    padding: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 #container,
-#result {
-    border: 2px solid white;
-    margin: 8px 10vw;
+#result,
+#score {
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 16px 20vw;
     padding: 16px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
